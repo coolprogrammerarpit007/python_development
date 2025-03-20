@@ -67,23 +67,23 @@ import sys
 
 # repeat_lyrics()
 
-largest = None
-smallest = None
-while True:
-    num = input("Enter number: ")
-    if(num == 'done'):
-        break
+# largest = None
+# smallest = None
+# while True:
+#     num = input("Enter number: ")
+#     if(num == 'done'):
+#         break
     
-    try:
-        num = float(num)
-        if(largest is None or num > largest):
-            largest = num
-        if(smallest is None or smallest > num):
-            smallest = num
-    except:
-        print("Invalid input")
-        continue
+#     try:
+#         num = float(num)
+#         if(largest is None or num > largest):
+#             largest = num
+#         if(smallest is None or smallest > num):
+#             smallest = num
+#     except:
+#         print("Invalid input")
+#         continue
         
 
-print("Maximum", largest)
-print("Minimum",smallest)
+# print("Maximum", largest)
+# print("Minimum",smallest)
